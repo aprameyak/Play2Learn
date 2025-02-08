@@ -1,6 +1,6 @@
 # **Play2Learn - Learning Arcade**
 
-Play2Learn is a gamified learning platform designed to make education fun and interactive. Built for Brown University’s 2025 Hackathon, the web application features an arcade-themed interface that engages users with educational games. The platform leverages OpenAI's GPT-4 model to generate questions and answers dynamically, providing a fresh and challenging experience each time.
+Play2Learn is a gamified learning platform designed to make education fun and interactive. The web application features an arcade-themed interface that engages users with educational games. The platform leverages OpenAI's GPT-4 model to generate questions and answers dynamically, providing a fresh and challenging experience each time.
 
 ## Features
 
@@ -19,3 +19,7 @@ Play2Learn is a gamified learning platform designed to make education fun and in
 - **Authentication**: Firebase Authentication (optional)
 - **CI/CD**: GitHub Actions, Vercel (Deployment)
 - **Testing**: Postman (API testing)
+
+## Live Deployment
+
+- **View Here**: https://play2learn-ten.vercel.app/
