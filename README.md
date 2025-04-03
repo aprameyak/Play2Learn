@@ -5,7 +5,7 @@
 ![Node.js](https://img.shields.io/badge/Backend-Node.js-green?logo=node.js)  
 ![AWS Lambda](https://img.shields.io/badge/Backend-AWS_Lambda-yellow?logo=amazonaws)  
 ![AWS API Gateway](https://img.shields.io/badge/Backend-AWS_API_Gateway-orange?logo=amazonaws)  
-![GPT-4](https://img.shields.io/badge/AI-GPT-4-orange?logo=openai)  
+![GPT-4 Badge](https://img.shields.io/badge/AI%20Model-GPT--4-blue)
 ![Vercel](https://img.shields.io/badge/Deployment-Vercel-blue?logo=vercel)  
 
 ## 📌 What it Does  
