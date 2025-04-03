@@ -1,25 +1,57 @@
-# **Play2Learn - Learning Arcade**
+# 🎮 Play2Learn - Learning Arcade  
 
-Play2Learn is a gamified learning platform designed to make education fun and interactive. The web application features an arcade-themed interface that engages users with educational games. The platform leverages OpenAI's GPT-4 model to generate questions and answers dynamically, providing a fresh and challenging experience each time.
+![React](https://img.shields.io/badge/Frontend-React.js-blue?logo=react)  
+![Next.js](https://img.shields.io/badge/Frontend-Next.js-blue?logo=nextdotjs)  
+![Node.js](https://img.shields.io/badge/Backend-Node.js-green?logo=node.js)  
+![AWS Lambda](https://img.shields.io/badge/Backend-AWS_Lambda-yellow?logo=amazonaws)  
+![AWS API Gateway](https://img.shields.io/badge/Backend-AWS_API_Gateway-orange?logo=amazonaws)  
+![GPT-4](https://img.shields.io/badge/AI-GPT-4-orange?logo=openai)  
+![Vercel](https://img.shields.io/badge/Deployment-Vercel-blue?logo=vercel)  
 
-## Features
+## 📌 What it Does  
 
-- **Gamified Learning**: Three distinct arcade-themed games designed to challenge and educate users.
-- **Serverless Architecture**: Utilizes AWS Lambda and API Gateway for scalable, serverless endpoints.
-- **Dynamic Question Generation**: GPT-4 model generates JSON documents of questions and answers based on specified topics.
-- **Interactive UI**: Arcade-inspired design to enhance the user experience, created in Figma and implemented with React.js and Next.js.
-- **Smooth Navigation**: Next.js routing from the homepage to games with clear logic to define game start and end points.
-- **Continuous Delivery**: Deployment and CI/CD integration with GitHub Actions and Vercel.
+**Play2Learn** is a **gamified learning platform** that combines education with an arcade-inspired gaming experience. The platform uses **OpenAI's GPT-4** to dynamically generate educational questions and answers, making each interaction unique and challenging. The web application features an engaging interface with three arcade-themed games designed to enhance learning.  
 
-## Technology Stack
+## 🚀 Features  
 
-- **Frontend**: React.js, Next.js, Typescript, Figma
-- **Backend**: Node.js, AWS Lambda, AWS API Gateway
-- **AI Model**: OpenAI GPT-4
-- **Authentication**: Firebase Authentication (optional)
-- **CI/CD**: GitHub Actions, Vercel (Deployment)
-- **Testing**: Postman (API testing)
+- **Gamified Learning:** Three arcade-themed educational games designed to challenge users.  
+- **Serverless Architecture:** Utilizes **AWS Lambda** and **API Gateway** for scalable, serverless endpoints.  
+- **Dynamic Question Generation:** **GPT-4** generates JSON documents of questions and answers based on user-selected topics.  
+- **Interactive UI:** Arcade-inspired design for a fun user experience, created in **Figma** and implemented using **React.js** and **Next.js**.  
+- **Smooth Navigation:** Next.js routing ensures seamless transitions between the homepage and games with clear start and end points.  
+- **Continuous Delivery:** CI/CD pipeline set up with **GitHub Actions** and deployed on **Vercel** for efficient updates.
 
-## Live Deployment
+## 🚀 Technology Stack  
 
-- **View Here**: https://play2learn-ten.vercel.app/
+### Frontend:  
+- **React.js**  
+- **Next.js**  
+- **TypeScript**  
+- **Figma** (for design)
+
+### Backend:  
+- **Node.js**  
+- **AWS Lambda**  
+- **AWS API Gateway**
+
+### AI Model:  
+- **OpenAI GPT-4**  
+
+### Authentication:  
+- **Firebase Authentication** (optional)
+
+### CI/CD:  
+- **GitHub Actions**  
+- **Vercel** (Deployment)
+
+### Testing:  
+- **Postman** (API testing)
+
+## 🔗 Live Deployment  
+
+[View the live application here](https://play2learn-ten.vercel.app/)
+
+## 🎮 About  
+
+**Hack@Brown 2025** - Learn like you're in an arcade
+
