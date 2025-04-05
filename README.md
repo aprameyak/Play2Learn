@@ -1,57 +1,56 @@
-# 🎮 Play2Learn - Learning Arcade  
+# Play2Learn - Learning Arcade
 
-![React](https://img.shields.io/badge/Frontend-React.js-blue?logo=react)  
-![Next.js](https://img.shields.io/badge/Frontend-Next.js-blue?logo=nextdotjs)  
-![Node.js](https://img.shields.io/badge/Backend-Node.js-green?logo=node.js)  
-![AWS Lambda](https://img.shields.io/badge/Backend-AWS_Lambda-yellow?logo=amazonaws)  
-![AWS API Gateway](https://img.shields.io/badge/Backend-AWS_API_Gateway-orange?logo=amazonaws)  
-![GPT-4 Badge](https://img.shields.io/badge/AI%20Model-GPT--4-blue)
-![Vercel](https://img.shields.io/badge/Deployment-Vercel-blue?logo=vercel)  
+![React.js](https://img.shields.io/badge/React.js-61DAFB?logo=react&logoColor=white&style=for-the-badge)
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white&style=for-the-badge)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white&style=for-the-badge)
+![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-FF9900?logo=amazon-aws&logoColor=white&style=for-the-badge)
+![API Gateway](https://img.shields.io/badge/API%20Gateway-F29100?logo=amazon-aws&logoColor=white&style=for-the-badge)
+![GPT-4](https://img.shields.io/badge/GPT--4-412991?logo=openai&logoColor=white&style=for-the-badge)
+![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white&style=for-the-badge)
 
-## 📌 What it Does  
+## About
 
-**Play2Learn** is a **gamified learning platform** that combines education with an arcade-inspired gaming experience. The platform uses **OpenAI's GPT-4** to dynamically generate educational questions and answers, making each interaction unique and challenging. The web application features an engaging interface with three arcade-themed games designed to enhance learning.  
+**Play2Learn** is a gamified learning platform that combines education with an arcade-inspired gaming experience. The platform uses **OpenAI's GPT-4** to dynamically generate educational questions and answers, making each interaction unique and challenging. The web application features an engaging interface with three arcade-themed games designed to enhance learning.
 
-## 🚀 Features  
+## Features
 
-- **Gamified Learning:** Three arcade-themed educational games designed to challenge users.  
-- **Serverless Architecture:** Utilizes **AWS Lambda** and **API Gateway** for scalable, serverless endpoints.  
-- **Dynamic Question Generation:** **GPT-4** generates JSON documents of questions and answers based on user-selected topics.  
-- **Interactive UI:** Arcade-inspired design for a fun user experience, created in **Figma** and implemented using **React.js** and **Next.js**.  
-- **Smooth Navigation:** Next.js routing ensures seamless transitions between the homepage and games with clear start and end points.  
-- **Continuous Delivery:** CI/CD pipeline set up with **GitHub Actions** and deployed on **Vercel** for efficient updates.
+- **Gamified Learning**: Three arcade-themed educational games designed to challenge users  
+- **Serverless Architecture**: Utilizes AWS Lambda and API Gateway for scalable, serverless endpoints  
+- **Dynamic Question Generation**: GPT-4 generates JSON documents of questions and answers based on user-selected topics  
+- **Interactive UI**: Arcade-inspired design built in Figma and implemented using React.js and Next.js  
+- **Smooth Navigation**: Next.js routing ensures seamless transitions between pages and game states  
+- **Continuous Delivery**: CI/CD pipeline powered by GitHub Actions and deployed via Vercel
 
-## 🚀 Technology Stack  
+## Technology Stack
 
-### Frontend:  
-- **React.js**  
-- **Next.js**  
-- **TypeScript**  
-- **Figma** (for design)
+### Frontend
+- React.js  
+- Next.js  
+- TypeScript  
+- Figma (Design)
 
-### Backend:  
-- **Node.js**  
-- **AWS Lambda**  
-- **AWS API Gateway**
+### Backend
+- Node.js  
+- AWS Lambda  
+- AWS API Gateway
 
-### AI Model:  
-- **OpenAI GPT-4**  
+### AI Model
+- OpenAI GPT-4
 
-### Authentication:  
-- **Firebase Authentication** (optional)
+### Authentication
+- Firebase Authentication (optional)
 
-### CI/CD:  
-- **GitHub Actions**  
-- **Vercel** (Deployment)
+### CI/CD
+- GitHub Actions  
+- Vercel
 
-### Testing:  
-- **Postman** (API testing)
+### Testing
+- Postman
 
-## 🔗 Live Deployment  
+## Live Deployment
 
 [View the live application here](https://play2learn-ten.vercel.app/)
 
-## 🎮 About  
+## Additional Info
 
-**Hack@Brown 2025** - Learn like you're in an arcade
-
+Built during **Hack@Brown 2025** — Learn like you're in an arcade
