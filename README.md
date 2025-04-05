@@ -1,4 +1,4 @@
-# Play2Learn - Learning Arcade
+# Play2Learn
 
 ![React.js](https://img.shields.io/badge/React.js-61DAFB?logo=react&logoColor=white&style=for-the-badge)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white&style=for-the-badge)
