@@ -4,7 +4,7 @@ Play2Learn turns any topic into a short arcade quiz. You type a topic, pick one 
 
 ![Play2Learn logo](public/logo.png)
 
-Built at Hack@Brown 2025 by [trinchngk](https://github.com/trinchngk), who wrote most of the game code, with [acabochan](https://github.com/acabochan) and [aprameyak](https://github.com/aprameyak).
+Built at Hack@Brown 2025.
 
 Live demo: https://play2learn-ten.vercel.app/
 
