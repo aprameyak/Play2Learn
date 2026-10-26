@@ -1,37 +1,62 @@
 # Play2Learn
 
-![React.js](https://img.shields.io/badge/React.js-61DAFB?logo=react&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
-![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-FF9900?logo=amazon-aws&logoColor=white)
-![API Gateway](https://img.shields.io/badge/API%20Gateway-F29100?logo=amazon-aws&logoColor=white)
-![GPT-4](https://img.shields.io/badge/GPT--4-412991?logo=openai&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
+Play2Learn turns any topic into a short arcade quiz. You type a topic, pick one of three mini-games, and answer AI-generated questions about that topic by playing the game.
 
-A gamified learning platform that blends education with arcade-style gameplay using AI-generated questions.
+![Play2Learn logo](public/logo.png)
 
----
+Built at Hack@Brown 2025 by [trinchngk](https://github.com/trinchngk), who wrote most of the game code, with [acabochan](https://github.com/acabochan) and [aprameyak](https://github.com/aprameyak).
+
+Live demo: https://play2learn-ten.vercel.app/
 
 ## Features
 
-- Arcade-style educational games  
-- AI-generated questions based on user topics  
-- Serverless backend for scalability  
-- Smooth navigation between game states  
-- Interactive, game-inspired UI  
-- Continuous deployment pipeline  
+- Free-text topic input on the home page, passed to each game as a `topic` query parameter.
+- True or False (`app/game1`): pick True or False to move a paddle; a correct answer blocks the ball.
+- Multiple Choice (`app/game2`): a highlight cycles through the answer choices every second; press Space or click a choice to shoot the ball at it. Ten questions per round.
+- Right or Wrong (`app/game3`): move left and right with the arrow keys and catch the falling missile that carries the right answer. You have three lives and win at 10 points.
+- Score tracking and a game-over screen with the final score in every game.
 
----
+## Tech stack
 
-## Usage
+- Next.js 15 (App Router), React 19, TypeScript
+- Tailwind CSS
+- axios for API calls
+- Question generation: three AWS API Gateway endpoints that call OpenAI (the Lambda code is not in this repo)
+- Deployed on Vercel
 
-1. Open the web app  
-2. Select a topic or game mode  
-3. Play through challenges and answer questions  
-4. Learn through real-time feedback  
+## Getting started
 
----
+Prerequisites: Node.js 18 or newer.
 
-## Deployment
+```bash
+npm install
+npm run dev      # http://localhost:3000
+```
 
-https://play2learn-ten.vercel.app/
+Other scripts:
+
+```bash
+npm run build
+npm run start
+npm run lint
+```
+
+No environment variables are needed. The question endpoints are hardcoded in each game page, so the games only load questions while those endpoints are live. There are no automated tests.
+
+## How it works
+
+`app/page.tsx` is the arcade-themed landing page with the topic input and the three game buttons. Each game page reads the topic from the URL and, on load, POSTs it to its own endpoint on `r9s90fv4id.execute-api.us-east-1.amazonaws.com`:
+
+- `app/game1/page.tsx` calls `/truefalseopenai`
+- `app/game2/page.tsx` calls `/multiplechoiceopenai`
+- `app/game3/page.tsx` calls `/rightorwrongopenai`
+
+Each endpoint returns a `questions` array with the question text, answer choices, and the correct answer. The rest of the game state (score, animation, lives) is handled client-side with React state. Images for the arcade theme are in `public/`.
+
+## Contributing
+
+Issues and pull requests are welcome. Run `npm run lint` and `npm run build` before opening a PR.
+
+## License
+
+MIT, see [LICENSE](LICENSE).
